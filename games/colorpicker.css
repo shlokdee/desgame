@@ -1,0 +1,72 @@
+body{
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+button{
+    background: black;
+        color:white;
+        border-radius: 10px;
+        border: 1px solid white;
+}
+
+button:hover{
+    background: rgb(50, 50, 50);
+}
+    .gamecard{
+        width:800px;
+        height:300px;
+        border: 1px solid white;
+        border-radius: 25px;
+        display: flex;
+
+    }
+    .gamecard .card{
+        width:50%;
+        height: 100%;
+        border: none;
+        box-sizing: border-box;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    .gamecard .choose{
+        
+        border-left: 1px solid white;
+    }
+    .choose #colorpicker{
+        height:150px;
+        width: 200px;
+        border: none;
+    }
+    .choose button{
+        width:100px;
+        height:50px;
+    }
+ 
+    .given #colorbox{
+        width: 200px;
+        height: 150px;
+        border:1px solid white;
+        border-radius: 10px;
+        background-color: rgb(67,67,67);
+    }   
+
+
+    .given #colorbox{
+        width: 200px;
+        height: 150px;
+        border:1px solid white;
+        border-radius: 10px;
+        background-color: rgb(67,67,67);
+    }
+
+    #mainbutton{
+        width: 200px;
+        height: 50px;
+        margin-top: 30px;
+    }
