@@ -21,11 +21,15 @@
         <div class="card choose">
             <input type="color" id="colorpicker">
             <label for="colorpicker">Pick your color here!</label>
-            <button>submit!</button>
+            <button id="submitbutton" onclick="submit()">submit!</button>
         </div>
 
     </div>
 
-    <button id="mainbutton">Start</button>
+    <button id="mainbutton" onclick="start()">Start</button>
+
+    <p id="scorelabel"></p>
+
+    <script src="colorpicker.js"></script>
 </body>
 </html>
